@@ -10,10 +10,8 @@ class DefaultConfig:
     """Bot Configuration"""
     PORT = 3978
     APP_TYPE = os.environ.get("MicrosoftAppType", "MultiTenant")
-    #APP_ID = os.environ.get("MicrosoftAppId", "7875854f-5d46-4aa8-b9bd-4b4cad15ec10") 
-    #APP_PASSWORD = os.environ.get("MicrosoftAppPassword", "2:Q98]wT&&3*&DtDg=/U^GSK[?")
-    APP_ID = os.environ.get("MicrosoftAppId", "1c272bec-0e22-45a8-aed3-bddfc99c3f24") 
-    APP_PASSWORD = os.environ.get("MicrosoftAppPassword", "1e7d8858-cc44-4ce4-a9b5-b22f311320a4")
+    APP_ID = os.environ.get("MicrosoftAppId", "2a7366dc-d983-4f54-85b3-804452d4a32c")
+    APP_PASSWORD = os.environ.get("MicrosoftAppPassword", "d61159f0-0105-495c-b4a9-192774fb5076")
     
     LUIS_APP_ID = os.environ.get("LuisAppId", "14445580-ac63-4dee-8408-71d066f97912")
     LUIS_API_KEY = os.environ.get("LuisAPIKey", "78583ade4d3d41efad110cdbb7018d52")
