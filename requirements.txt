@@ -8,6 +8,6 @@ botbuilder-integration-applicationinsights-aiohttp==4.13.0
 azure-cognitiveservices-language-luis==0.2.0
 msrest==0.6.10
 datatypes-date-time>=1.0.0.a1
-aiohttp==3.6.2
+aiohttp>=3.7.4
 requests==2.23.0
 pytest
